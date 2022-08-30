@@ -1,6 +1,9 @@
 import type { AppProps } from "next/app";
 
 import { ChakraProvider } from "@chakra-ui/react";
+import "swiper/css/bundle";
+
+import "../styles/global.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
